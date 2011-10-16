@@ -1,0 +1,5 @@
+<form action="[% c.uri_for('/login') %]" method="post" class="[% $login_form_class %]">
+	<input class="input-small" type="text" placeholder="usuário" name="u">
+	<input class="input-small" type="password" placeholder="senha" name="p">
+	<button class="btn"  type="submit">Entrar</button>
+</form>

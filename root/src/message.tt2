@@ -1,0 +1,5 @@
+[% IF msg %]
+<div class="alert-message [% alert %]">
+	<p><strong>[%pmsg%]</strong> [% msg %]</p>
+</div>	
+[%END %]

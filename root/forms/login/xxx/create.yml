@@ -1,0 +1,40 @@
+---
+    elements:
+        - type: Text
+          name: username
+          label: usuario!atenção
+          constraints:
+             - type: Required
+               
+
+        - type: Text
+          label: first_name
+          name: first_name
+          constraints:
+             - type: Required
+
+
+        - type: Text
+          label: last_name
+          name: last_name
+          constraints:
+             - type: Required
+
+
+        - type: Password
+          name: password
+          label: senha
+          constraints:
+             - type: Required
+             - type: Equal
+               others: repeat-password
+        
+        - type: Password
+          name: repeat-password
+          label: senha novamente
+                  
+ 
+        - type: Submit
+          name: Submit
+ 
+    

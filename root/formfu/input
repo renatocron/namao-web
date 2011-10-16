@@ -1,0 +1,9 @@
+[% WRAPPER field %]<div class="input">[% INCLUDE $self.field_filename %]
+
+[% IF self.errors %]
+	[% FOREACH error = self.errors %]
+		<span class="help-inline [% error.class %]">[% error.message %]</span>
+	[% END %]
+[% END %]
+
+</div>[% END %]

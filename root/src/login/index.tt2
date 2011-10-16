@@ -1,0 +1,13 @@
+<div class="page-header">
+	<h1>Login <small>entra aí, ou cria uma conta, vacilão</small></h1>
+</div>
+<div class="row">
+	<div class="span10">
+		[% PROCESS message.tt2 %]
+		<h2>Entre abaixo</h2>
+		[%PROCESS login_form.tt2%]  
+	</div>
+	<div class="span4">
+	<h3>Crei sua conta</h3>
+	</div>
+</div>
